@@ -1,0 +1,51 @@
+nav{
+  display:flex;
+}
+@media only screen and (max-width: 600px) 
+{
+  body {
+    background-color: lightblue;
+  }
+  body {
+  background-color: blue;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #cc0000;
+  color: white;
+  font-family: 'Exo 2', sans-serif;
+  padding: 1em;
+}
+nav-bar{
+  position:top;
+}
+nav li {
+    padding-bottom: 5px;
+  }
+
+}
+nav > ul {
+  width: 35vw;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+footer>ul{
+  padding:0px 10px;
+  display:flex;
+  flex-direction: row;
+  width: 35vw;
+
+
+
+}
+footer>span{
+  display:flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: #444;
+}
