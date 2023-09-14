@@ -1,0 +1,69 @@
+body{
+    background-color: aquamarine;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    width:500px;
+    height: 560px;
+    top: 10%;
+    left: 30%;
+    position: absolute;
+    border: 1px solid black;
+    background-color: #fff;
+}
+.container h1{
+    padding-top: 15px;
+    margin-top: 0;
+    height: 50px;
+    width:100%;
+    background-color: rgb(250, 215, 245);
+    color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+}
+.container label{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.container #pass{
+    width: 70%;
+    margin-left: 7px;
+    height: 40px;
+}
+.container #pn{
+
+    width: 70%;
+    margin-left: 6px;
+    height: 35px;
+
+}
+.container #branch{
+    width: 70%;
+    margin-left: 15px;
+    height: 30px;    
+}
+.container #name,#mail,#dob{
+    width: 70%;
+    margin-left: 16px;
+    height: 35px
+}
+#sub{
+    margin-left: 20px;
+    width: 30%;
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: blue;
+    color: #f9f2f2;
+    border-radius: 25%;
+}
+#Re{
+    margin-left: 150px;
+    width: 30%;
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: blue;
+    color: #f9f2f2;
+    border-radius: 25%;
+}
